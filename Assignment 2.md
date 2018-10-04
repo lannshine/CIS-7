@@ -1,4 +1,4 @@
-part 1
+part 1 (Format: View in raw file)
 
 p -> q <=> q' -> p'
 p' v q <=> q' -> p'
