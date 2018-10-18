@@ -29,6 +29,7 @@ int main()
 		getline(cin, str);
 		str.erase(std::remove(str.begin(), str.end(), ' '),
 			str.end());
+		bool wff = 1;
 
 		if ((str[0] < 'A') || (str[0] > 'Z') || (str.length() < 3) || (str.length() % 2 == 0)) wff = 0;
 		else
