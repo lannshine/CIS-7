@@ -15,6 +15,7 @@ Add support for the "->" connector
 
 #include <iostream>
 #include <string>
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -25,8 +26,9 @@ int main()
 	while (again == 'Y')
 	{
 		cout << "Enter a new string (^, V, !, A-Z, capital letters only):";
-		cin >> str;
-		bool wff = 1;
+		getline(cin, str);
+		str.erase(std::remove(str.begin(), str.end(), ' '),
+			str.end());
 
 		if ((str[0] < 'A') || (str[0] > 'Z') || (str.length() < 3) || (str.length() % 2 == 0)) wff = 0;
 		else
@@ -53,6 +55,7 @@ int main()
 
 		cout << "Enter Y to enter another string, enter anything else to quit:";
 		cin >> again;
+		cin.ignore();
 	}
 
 	return 0;
