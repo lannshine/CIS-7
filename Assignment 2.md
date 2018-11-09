@@ -1,4 +1,4 @@
-part 1 (Format: View in "Raw")
+Part 1
 
 p -> q <=> q' -> p'
 p' v q <=> q' -> p'
@@ -17,5 +17,8 @@ Therefore (p->r) ^ (q->r) and (p v q) -> r are logically equivalent.
 
 Interpret (Ǝx)A(x) ^ (Ǝx)B(x) -> (Ǝx)(A(x) ^ B(x))
 x is a fruit; A(x) => x is an apple; B(x) => x is an orange
-(Ǝx)A(x) => there is a fruit that is an apple; (Ǝx)B(x) => there is a fruit that is an orange; (Ǝx)A(x) ^ (Ǝx)B(x) => some fruits are apples and some fruits are oranges; (Ǝx)(A(x) ^ B(x)) => there is a fruit that is both an orange and an apple; thereforenot valid
-
+(Ǝx)A(x) => there is a fruit that is an apple;
+(Ǝx)B(x) => there is a fruit that is an orange;
+(Ǝx)A(x) ^ (Ǝx)B(x) => some fruits are apples and some fruits are oranges;
+(Ǝx)(A(x) ^ B(x)) => there is a fruit that is both an orange and an apple;
+therefore not valid
