@@ -48,20 +48,21 @@ chain.
 
 Answer:
 
-| (p ∧ q) → r | p → (q → r ) | 
---------------|--------------|-
-| (p ^ q)' v r | p' v (q' v r ) | Implication x3
-| (p' v q') v r| p' v (q' v r ) | DeM
-| p' v (q' v r)| p' v (q' v r ) | Associative
+| (p ∧ q) → r | p → (q → r ) | Definition or Law of Logic
+--------------|--------------|---------------------------
+| (p ^ q)' v r | p' v (q' v r ) | Implication x3 
+| (p' v q') v r| p' v (q' v r ) | DeM 
+| p' v (q' v r)| p' v (q' v r ) | Associative 
 
 - [ ] (q ∨ r) → p, (q → p)∧(r → p)
 
 Answer:
 
-| (q ∨ r) → p | (q → p)∧(r → p) | 
-|-------------|-----------------|-
-| (q v r)' v p | (q' v p) ^ (r' v p) | Implication x3
-| (q' ^ r') v p | (q' v p) ^ (r' v p) | DeM
-| p v (q' ^ r') | (q' v p) ^ (r' v p) | Commutative
-| (p v q') ^ (p v r') | (q' v p) ^ (r' v p) | Distributive
-| (q' v p) ^ (r' v p) | (q' v p) ^ (r' v p) | Commutative
+| (q ∨ r) → p | (q → p)∧(r → p) | Definition or Law of Logic
+|-------------|-----------------|---------------------------
+| (q v r)' v p | (q' v p) ^ (r' v p) | Implication x3 
+| (q' ^ r') v p | (q' v p) ^ (r' v p) | DeM 
+| p v (q' ^ r') | (q' v p) ^ (r' v p) | Commutative 
+| (p v q') ^ (p v r') | (q' v p) ^ (r' v p) | Distributive 
+| (q' v p) ^ (r' v p) | (q' v p) ^ (r' v p) | Commutative 
+
