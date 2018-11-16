@@ -47,6 +47,8 @@ chain.
 - [ ] (p ∧ q) → r , p → (q → r )
 
 Answer:
-(p ^ q)' v r, p' v (q' v r )
+(p ∧ q) → r | p → (q → r )
+(p ^ q)' v r | p' v (q' v r )
+
 
  - [ ] (q ∨ r ) → p, (q → p)∧(r → p)
