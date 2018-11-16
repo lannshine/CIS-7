@@ -71,22 +71,24 @@ Part 4:
 Let Loves(x,y) mean “x loves y,” Traveler(x) mean “x is a traveler,”
 City(x) mean “x is a city,” Lives(x,y) mean “x lives in y.”
 ```
-- [ ] Translate into English: ∃x∀y∀z(City(x) ∧ Traveler (y)∧Li ves(z,x)) → (Loves(y,x)∧ ¬Loves(z,x))
+- [ ] Translate into English: ∃x∀y∀z(City(x) ∧ Traveler(y) ∧ Lives(z,x)) → (Loves(y,x) ∧ ¬Loves(z,x))
 
-Answer:
+Answer: For every traveler and everyone who lives in the city, there is a city such that if the traveler lives in the city, then the traveler loves this city, and the people live there do not love the city.
 
 - [ ] Translate into Predicate Logic: “No traveler loves the city they live in.”
 
-Answer:
+Answer: ∀x(Traveler(x) ^ City(y) ^ Lives(x,y) -> Loves(x,y)'
 
 Extra Credit:
 ```
 Assuming: p → (q ∧ r ), s → r , r → p
 Prove: s → q.
-
+```
+```
 Assuming: ¬(r ∨ s), ¬p → s, p → q. 
 Prove: q
-
+```
+```
 HINT:
 Modus Ponen: If x -> q, and x, then q
 Modus Tollens: If x -> q, and ~q, then ~x
