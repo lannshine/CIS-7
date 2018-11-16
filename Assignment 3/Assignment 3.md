@@ -12,22 +12,23 @@ Answer: (S ^ H) -> (M v C)
 Part 2:
 Use a truth table to determine whether this is a tautology, contradiction, or neither: (¬B → ¬A) → ((¬B → A) → B)
 Answer:
-A | B | B' |  A' | (B' -> A') | (B' -> A) | ((B' -> A) -> B) | (B' -> A') -> ((B' -> A) -> B)
---|---|----|-----|------------|-----------|------------------|-------------------------------
-T | T | F  |  F  |     T      |     F     |         F        |               F               
-T | F | T  |  F  |     F      |     T     |         F        |               T               
-F | T | F  |  T  |     F      |     T     |         T        |               F               
-F | F | T  |  T  |     T      |     F     |         T        |               T               
+```
+| A | B | B' |  A' | (B' -> A') | (B' -> A) | ((B' -> A) -> B) | (B' -> A') -> ((B' -> A) -> B)
+|---|---|----|-----|------------|-----------|------------------|-------------------------------
+| T | T | F  |  F  |     T      |     F     |         F        |               F               
+| T | F | T  |  F  |     F      |     T     |         F        |               T               
+| F | T | F  |  T  |     F      |     T     |         T        |               F               
+| F | F | T  |  T  |     T      |     F     |         T        |               T               
 Therefore neither tautology or contradiction
  
 Use a truth table to determine whether this is a tautology, contradiction, or neither: ((A → B)∧(B → ¬A)) → A
 Answer:
-A | B | A' | (A → B) | (B → A') | ((A → B)∧(B → A')) | ((A → B)∧(B → A')) → A
---|---|----|---------|----------|--------------------|------------------------
-T | T | F  |    T    |    F     |         F          |            F           
-T | F | F  |    F    |    T     |         F          |            F           
-F | T | T  |    F    |    T     |         F          |            T           
-F | F | T  |    T    |    F     |         F          |            T           
+| A | B | A' | (A → B) | (B → A') | ((A → B)∧(B → A')) | ((A → B)∧(B → A')) → A
+|---|---|----|---------|----------|--------------------|------------------------
+| T | T | F  |    T    |    F     |         F          |            F           
+| T | F | F  |    F    |    T     |         F          |            F           
+| F | T | T  |    F    |    T     |         F          |            T           
+| F | F | T  |    T    |    F     |         F          |            T           
 Therefore neither tautology or contradiction
 
 Part 3:
