@@ -66,3 +66,28 @@ Answer:
 | (p v q') ^ (p v r') | (q' v p) ^ (r' v p) | Distributive 
 | (q' v p) ^ (r' v p) | (q' v p) ^ (r' v p) | Commutative 
 
+Part 4:
+```
+Let Loves(x,y) mean “x loves y,” Traveler(x) mean “x is a traveler,”
+City(x) mean “x is a city,” Lives(x,y) mean “x lives in y.”
+```
+- [ ] Translate into English: ∃x∀y∀z(City(x) ∧ Traveler (y)∧Li ves(z,x)) → (Loves(y,x)∧ ¬Loves(z,x))
+
+Answer:
+
+- [ ] Translate into Predicate Logic: “No traveler loves the city they live in.”
+
+Answer:
+
+Extra Credit:
+```
+Assuming: p → (q ∧ r ), s → r , r → p
+Prove: s → q.
+
+Assuming: ¬(r ∨ s), ¬p → s, p → q. 
+Prove: q
+
+HINT:
+Modus Ponen: If x -> q, and x, then q
+Modus Tollens: If x -> q, and ~q, then ~x
+```
