@@ -48,8 +48,8 @@ chain.
 
 Answer:
 
-| (p ∧ q) → r | p → (q → r ) |
---------------|--------------|
+| (p ∧ q) → r | p → (q → r ) | 
+--------------|--------------|-
 | (p ^ q)' v r | p' v (q' v r ) | Implication x3
 | (p' v q') v r| p' v (q' v r ) | DeM
 | p' v (q' v r)| p' v (q' v r ) | Associative
@@ -58,8 +58,8 @@ Answer:
 
 Answer:
 
-| (q ∨ r) → p | (q → p)∧(r → p) |
-|-------------|-----------------|
+| (q ∨ r) → p | (q → p)∧(r → p) | 
+|-------------|-----------------|-
 | (q v r)' v p | (q' v p) ^ (r' v p) | Implication x3
 | (q' ^ r') v p | (q' v p) ^ (r' v p) | DeM
 | p v (q' ^ r') | (q' v p) ^ (r' v p) | Commutative
