@@ -25,7 +25,8 @@ int main()
 	while (again == 'Y')
 	{
 		cout << "Enter a new string (^, V, !, A-Z, capital letters only):";
-		cin >> str;
+		getline(cin, str);
+		str.erase(remove(str.begin(), str.end(), ' '), str.end());
 		bool wff = 1;
 
 		if ((str[0] < 'A') || (str[0] > 'Z')||(str.length() < 3)) wff = 0;
@@ -76,6 +77,7 @@ int main()
 
 		cout << "Enter Y to enter another string, enter anything else to quit:";
 		cin >> again;
+		cin.ignore();
 	}
 
 	return 0;
