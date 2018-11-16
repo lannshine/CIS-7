@@ -1,6 +1,5 @@
-NOTE: VIEW IN "RAW"
-
-```Part 1:
+Part 1:
+```
 Let S = it is sunny, C = camping is fun, H = the homework is done, and M = mathematics is easy.
 ```
 Translate into English: (M → H)∧(S →C)
@@ -10,7 +9,9 @@ Translate into Propositional Logic: “Mathematics is easy or camping is fun, as
 Answer: (S ^ H) -> (M v C)
  
 Part 2:
+`
 Use a truth table to determine whether this is a tautology, contradiction, or neither: (¬B → ¬A) → ((¬B → A) → B)
+`
 Answer:
 ```
 | A | B | B' |  A' | (B' -> A') | (B' -> A) | ((B' -> A) -> B) | (B' -> A') -> ((B' -> A) -> B)
