@@ -9,7 +9,7 @@ Translate into Propositional Logic: “Mathematics is easy or camping is fun, as
 Answer: (S ^ H) -> (M v C)
  
 Part 2:
-`
+``
 Use a truth table to determine whether this is a tautology, contradiction, or neither: (¬B → ¬A) → ((¬B → A) → B)
 `
 Answer:
