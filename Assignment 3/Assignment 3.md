@@ -3,6 +3,7 @@ Part 1:
 Let S = it is sunny, C = camping is fun, H = the homework is done, and M = mathematics is easy.
 ```
 Translate into English: (M → H)∧(S →C)
+
 Answer: If mathematics homework is done, then camping is fun if it is sunny.
  
 Translate into Propositional Logic: “Mathematics is easy or camping is fun, as long as it is sunny and the homework is done.”
