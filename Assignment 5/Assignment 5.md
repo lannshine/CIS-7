@@ -4,7 +4,9 @@ Proove each of the following.  Indicate which proof method you are using and sho
 ```
 - [ ]  Show that the square root of 2 is irrational.
 
-Answer: Assume sqrt(2) is rational, then it can be expressed as a rational fraction, b/a, where $a$ 
+Answer:
+Assume sqrt(2) is rational, then it can be expressed as a rational fraction, b/a, where a and b are two relatively prime integers.
+Therefore sqrt(2) = b/a => 2 = b^2/a^2 => b^2 = 2a^2.
 
 - [ ]  If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
 
