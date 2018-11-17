@@ -85,9 +85,43 @@ Part 2:
 - [ ] Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
 
 Answer: 
+Assume 1 + 5 + 9 + ... + (4n-3) = n(2n-1) is true, then
+
+1 + 5 + 9 + ... + (4n-3) + (4(n+1)-3)
+
+= n(2n-1) + (4(n+1)-3
+
+= 2n^2 - n + 4n + 4 - 3
+
+= 2n^2 + 3n + 1   (1)
+
+(n + 1)(2(n + 1)-1)
+
+= (n + 1)(2n + 2 - 1)
+
+= 2n^2 + 2n - n + 2n + 2 -1
+
+= 2n^2 + 3n + 1   (2)
+
+(1) = (2), therefore 1 + 5 + 9 + ... + (4n-3) = n(2n-1).
+
+
 - [ ] Prove that for any positive integer number n, n^3 + 2n is divisible by 3
 
 Answer: 
+Assume that for any positive integer number n, n^3 + 2n is divisible by 3 is true.
+Let n = 1, then n^3 + 2n = 1 + 2 = 3, divisible by 3.
+
+(n + 1)^3 + 2(n + 1)
+
+= (n^3 + 3n^2 + 3n + 1) + (2n + 2)
+
+= (n^3 + 2n) + (3n^2 + 3n + 3)
+
+= (n^3 + 2n) + 3(n^2 + n + 1)  => divisible by 3.
+
+
+
 - [ ] Prove that for n >= 1, 9^n − 1 is divisible by 8 for all non-negative integers. 
 Hint: 4^(3+1) = 4 * 4^3
 Hint: If 9^n - 1 = 8m, then 9^n = 8m + 1   
