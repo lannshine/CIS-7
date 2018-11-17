@@ -6,7 +6,13 @@ Proove each of the following.  Indicate which proof method you are using and sho
 
 Answer:
 Assume sqrt(2) is rational, then it can be expressed as a rational fraction, b/a, where a and b are two relatively prime integers.
-Therefore sqrt(2) = b/a => 2 = b^2/a^2 => b^2 = 2a^2.
+Therefore, sqrt(2) = b/a   =>   2 = b^2/a^2   =>   b^2 = 2a^2.
+Since 2a^2 is even, b^2 is even, and since b^2 is even, b is even.
+Let b=2c, then (2c)^2 = 2a^2   => 4c^2 = 2a^2   =>   2c^2 = a^2.
+Since 2c^2 is even, a^2 is even, and since a^2 is even, a is even.
+However, two even numbers cannot be relatively prime(sqrt(2) = b/a, a is even, b is even), therefore sqrt(2) cannot be expressed as a rational fraction.
+Therefore, sqrt(2) is irrational. Mothod: contradiction.
+
 
 - [ ]  If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
 
