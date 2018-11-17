@@ -18,8 +18,11 @@ Therefore, sqrt(2) is irrational. Mothod: contradiction.
 
 Answer: 
 When n = 25,  n = 5^2,  n = 3^2 + 4^2
+
 When n = 100, n = 10^2, n = 6^2 + 8^2
+
 When n = 169, n = 13^2, n = 5^2 + 12^2
+
 Method: exhaustive proof.
 
 - [ ]  The sum of two odd integers is even.  Hint: By definition, even integers can be expressed as 2n, thus odd integers can be expressed as 2n + 1	
