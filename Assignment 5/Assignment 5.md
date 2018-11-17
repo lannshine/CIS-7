@@ -48,16 +48,37 @@ a + b = 2(n + m + 1)
 
 Let an integer c = n + m + 1, then
 
-a + b = 2c, by definition, (a + b) is even.
+a + b = 2c. By definition, (a + b) is even.
 
 Method: direct proof.
 
-- [ ]  The sum of an even integer and it's square is even
+- [ ]  The sum of an even integer and its square is even
 
 Answer: 
+Let a be an even integer, where a = 2n and n is some integer, then
+
+a + a^2
+
+= a + a(a)
+
+= a(1 + a)
+
+= 2n(1 + 2n)
+
+= 2(n + 2n^2). By definition, 2(n + 2n^2) is even.
+
+Method: direct proof. 
+
 - [ ]  If n squared is odd, then n is odd
 
 Answer: 
+If n is an even integer where n = 2m, then
+n^2 = (2m)^2
+
+=4m^2
+
+=2(2m^2), so n^2 is even. Therefore if n^2 is not even, then n is not even, namely odd.
+Method: contraposition.
 
 Part 2:
 
