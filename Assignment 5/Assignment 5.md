@@ -4,23 +4,27 @@ Proove each of the following.  Indicate which proof method you are using and sho
 ```
 - [ ]  Show that the square root of 2 is irrational.
 
-Answer:```
+Answer:
+```
 Assume sqrt(2) is rational, then it can be expressed as a rational fraction, b/a, where a and b are two relatively prime integers.
 Therefore, sqrt(2) = b/a   =>   2 = b^2/a^2   =>   b^2 = 2a^2.
 Since 2a^2 is even, b^2 is even, and since b^2 is even, b is even.
 Let b=2c, then (2c)^2 = 2a^2   => 4c^2 = 2a^2   =>   2c^2 = a^2.
 Since 2c^2 is even, a^2 is even, and since a^2 is even, a is even.
 However, two even numbers cannot be relatively prime(sqrt(2) = b/a, a is even, b is even), therefore sqrt(2) cannot be expressed as a rational fraction.
-Therefore, sqrt(2) is irrational. Mothod: contradiction.```
+Therefore, sqrt(2) is irrational. Mothod: contradiction.
+```
 
 
 - [ ]  If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
 
-Answer: ```
+Answer: 
+```
 When n = 25,  n = 5^2,  n = 3^2 + 4^2
 When n = 100, n = 10^2, n = 6^2 + 8^2
 When n = 169, n = 13^2, n = 5^2 + 12^2
-Method: exhaustive proof.```
+Method: exhaustive proof.
+```
 
 - [ ]  The sum of two odd integers is even.  Hint: By definition, even integers can be expressed as 2n, thus odd integers can be expressed as 2n + 1	
 
