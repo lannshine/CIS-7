@@ -21,19 +21,37 @@ rational fraction.
 
 Therefore, sqrt(2) is irrational. Mothod: contradiction.
 
+
 - [ ]  If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
 
 Answer: 
-```
+
 When n = 25,  n = 5^2,  n = 3^2 + 4^2
+
 When n = 100, n = 10^2, n = 6^2 + 8^2
+
 When n = 169, n = 13^2, n = 5^2 + 12^2
+
 Method: exhaustive proof.
-```
+
 
 - [ ]  The sum of two odd integers is even.  Hint: By definition, even integers can be expressed as 2n, thus odd integers can be expressed as 2n + 1	
 
 Answer: 
+Let a and b be two odd integers, then a = 2n + 1, b = 2m + 1, where n and m are some integers.
+
+a + b = 2n + 1 + 2m + 1
+
+a + b = 2n + 2m + 2
+
+a + b = 2(n + m + 1)
+
+Let an integer c = n + m + 1, then
+
+a + b = 2c, by definition, (a + b) is even.
+
+Method: direct proof.
+
 - [ ]  The sum of an even integer and it's square is even
 
 Answer: 
