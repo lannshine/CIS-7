@@ -127,3 +127,22 @@ Hint: 4^(3+1) = 4 * 4^3
 Hint: If 9^n - 1 = 8m, then 9^n = 8m + 1   
 
 Answer: 
+Let n = 1, 9^n − 1 = 9 - 1 = 8, divisible by 8
+
+Assume 9^n − 1 is divisible by 8 for all non-negative integers, then
+
+9^(n+1) − 1
+
+= 3^(2n+2) - 1
+
+= 3^(2n) ⋅ 3^2 - 1
+
+= 3^(2n) ⋅ 9 - 1
+
+= 3^(2n) ⋅ (8+1) - 1
+
+= 3^(2n) ⋅ (8) + 3^(2n)  - 1
+
+= 3^(2n) ⋅ (8) + 9^n - 1, where [3^(2n) ⋅ 8] is divisible by 8 and 9^n - 1 is divisible by 8.
+
+Therefore n >= 1, 9^n − 1 is divisible by 8 for all non-negative integers.
